@@ -51,7 +51,39 @@ main{
 
 .conteudo{
     width: 50%;
-    background-color: red;
+    padding-right: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.conteudo h1{
+    font-size: 80px;
+
+}
+
+.conteudo p{
+    font-size: 38px;
+}
+
+.conteudo button{
+    width: 300px;
+    height: 64px;
+    font-size: 32px;
+    background-color: black;
+    color: white;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between
+}
+
+.social div{
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: lightgray;
 }
 
 .destaque{
@@ -61,5 +93,8 @@ main{
 
 footer{
     height: 100px;
-    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgray;
 }
