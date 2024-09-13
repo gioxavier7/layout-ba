@@ -22,6 +22,7 @@ body{
     display: flex;
     flex-direction: column;
     padding-inline: 80px;
+    background: rgb(245, 245, 245);
 }
 
 header{
@@ -34,7 +35,8 @@ header{
 .logo{
     height: 80px;
     width: 80px;
-    background-color: lightgray;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/732/732084.png);
+    background-size: contain;
 }
 
 .menu ul{
@@ -45,7 +47,6 @@ header{
 
 main{
     flex-grow: 1;
-    background-color: plum;
     display: flex;
 }
 
@@ -63,7 +64,7 @@ main{
 }
 
 .conteudo p{
-    font-size: 38px;
+    font-size: 32px;
 }
 
 .conteudo button{
@@ -83,12 +84,28 @@ main{
     height: 64px;
     width: 64px;
     border-radius: 50%;
-    background-color: lightgray;
+}
+
+.social .social-icon1{
+    background-image: url(https://e7.pngegg.com/pngimages/10/271/png-clipart-iphone-whatsapp-logo-whatsapp-call-icon-grass-mobile-phones-thumbnail.png);
+    background-size: contain;
+}
+
+.social .social-icon2{
+    background-image: url(https://w7.pngwing.com/pngs/623/523/png-transparent-instagram-logo-instagram-facebook-inc-youtube-organization-instagram-thumbnail.png);
+    background-size: contain;
+}
+
+.social .social-icon3{
+    background-image: url(https://w7.pngwing.com/pngs/814/840/png-transparent-tiktok-tiktok-logo-tiktok-icon-thumbnail.png);
+    background-size: contain;
 }
 
 .destaque{
-    width: 50%;
-    background-color: lightgray;
+    width: 40%;
+    height: 100%;
+    background-image: url(https://imgnike-a.akamaihd.net/1920x1920/02449651A4.jpg);
+    background-size: contain;
 }
 
 footer{
@@ -96,5 +113,5 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: lightgray;
+    color: black;
 }
